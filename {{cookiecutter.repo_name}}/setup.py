@@ -26,6 +26,11 @@ setup(
     package_data={'{{cookiecutter.repo_name}}': ["data/*.dat"]
                   },
 
+    entry_points={'console_scripts': ['{{cookiecutter.first_module_name}} = {{cookiecutter.repo_name}}.{{cookiecutter.first_module_name}}',
+                                      ],
+                  },     package_dir={'{{cookiecutter.repo_name}}': '{{cookiecutter.repo_name}}'},
+
+
     # Additional entries you may want simply uncomment the lines you want and fill in the data
     # author_email='me@place.org',      # Author email
     # url='http://www.my_package.com',  # Website
