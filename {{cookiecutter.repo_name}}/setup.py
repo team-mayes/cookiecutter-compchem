@@ -26,7 +26,7 @@ setup(
     package_data={'{{cookiecutter.repo_name}}': ["data/*.dat"]
                   },
 
-    entry_points={'console_scripts': ['{{cookiecutter.first_module_name}} = {{cookiecutter.repo_name}}.{{cookiecutter.first_module_name}}',
+    entry_points={'console_scripts': ['{{cookiecutter.first_module_name}} = {{cookiecutter.repo_name}}.{{cookiecutter.first_module_name}}:main',
                                       ],
                   },     package_dir={'{{cookiecutter.repo_name}}': '{{cookiecutter.repo_name}}'},
 
