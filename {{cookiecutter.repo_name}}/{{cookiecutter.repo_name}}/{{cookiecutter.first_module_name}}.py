@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 {{cookiecutter.first_module_name}}.py
 {{cookiecutter.description}}

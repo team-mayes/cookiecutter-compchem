@@ -18,7 +18,7 @@ setup(
     license='{{cookiecutter.open_source_license}}',
 
     # Which Python importable modules should be included when your package is installed
-    packages=['{{cookiecutter.repo_name}}', "{{cookiecutter.repo_name}}.tests"],
+    packages=['{{cookiecutter.repo_name}}'],
 
     # Optional include package data to ship with your package
     # Comment out this line to prevent the files from being packaged with your software
@@ -30,7 +30,7 @@ setup(
                                       ],
                   },     package_dir={'{{cookiecutter.repo_name}}': '{{cookiecutter.repo_name}}'},
 
-
+    test_suite='tests',
     # Additional entries you may want simply uncomment the lines you want and fill in the data
     # author_email='me@place.org',      # Author email
     # url='http://www.my_package.com',  # Website
