@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 {{cookiecutter.project_name}}
 {{cookiecutter.description}}

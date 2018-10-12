@@ -1,6 +1,7 @@
 """
 Simulates a cookiecutter run
 """
+# -*- coding: utf-8 -*-
 
 from subprocess import Popen, PIPE, STDOUT
 import sys

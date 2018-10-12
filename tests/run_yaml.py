@@ -1,6 +1,7 @@
 """
 Runs arbitrary YAML commands
 """
+# -*- coding: utf-8 -*-
 
 import os
 import sys

@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 """
 {{cookiecutter.first_module_name}}.py
 {{cookiecutter.description}}
